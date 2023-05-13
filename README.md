@@ -23,11 +23,10 @@ The program also allows the user to continuously refresh the listings to see if 
 ## File Structure
 
 - `main.py`: The main file that runs the program and handles user input, display of results, and continuous checking for new listings.
-- `api.py`: Functions for interacting with the Warframe Market API, including retrieving listings and searching for specific items.
-- `listing.py`: Defines a `Listing` class to represent a single listing on the Warframe Market platform.
+- `api.py`: Functions for interacting with the Warframe Market API.
+- `listing.py`: Defines functions to represent listings on the Warframe Market platform, including retrieving listings and searching for specific items.
+- `database.py`: Handles queried input to pull attributes from listings for further query
 - `utils.py`: Utility functions used throughout the program, such as functions for formatting output or parsing user input.
-- `notification.py`: Defines a `Notifier` class to handle displaying notifications when a new listing appears that matches the search criteria.
-- discordbot.py: A separate file that contains code for integrating the Warframe Market API Python client with a Discord bot. This file handles Discord API interactions and receives user commands, such as search queries, from Discord users. It uses the functions and classes defined in the other files to search for listings and send notifications to Discord channels when new listings appear that match the search criteria.
 
 ## Credits
 
